@@ -1,0 +1,59 @@
+canvas {
+  display: block;
+  border-radius: var(--border-radius-lg);
+  border: 0.5px solid var(--color-border-tertiary);
+  background: var(--color-background-secondary);
+}
+
+#ui {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+#stats {
+  display: flex;
+  gap: 16px;
+  font-size: 13px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  color: var(--color-text-secondary);
+}
+
+.stat span {
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+button {
+  font-size: 13px;
+  padding: 4px 12px;
+}
+
+#legend {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: var(--color-text-secondary);
+  align-items: center;
+}
+
+.leg {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.leg-line {
+  width: 24px;
+  height: 3px;
+  border-radius: 2px;
+}
